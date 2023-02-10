@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: silver;
+}
+
+#container {
+    width: 40%;
+    background-color: slategray;
+    margin: 0px auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#chatbox {
+    width: 90%;
+    height: 400px;
+    color: white;
+}
+
+#chatdata {
+    font-weight: bold;
+    border-bottom: 1px solid white;
+    margin-bottom: 7px;
+}
+
+input[type="text"] {
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+textarea {
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    height: 80px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: gold;
+    color: black;
+    cursor: pointer;
+}
+
+
+/* 2688x1242px at 458ppi */
+
+@media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) {}
+
+
+/* iphone 6+, 6s+, 7+, 8+ */
+
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (-webkit-device-pixel-ratio: 3) {}
+
+
+/* 2436x1125px at 458ppi */
+
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {}
+
+
+/* This is a demo application for the computer
+    thanks 
+    Jaafar Suliman  */
